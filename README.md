@@ -1,0 +1,2 @@
+# Pallett.
+Palhetas randomicas.
