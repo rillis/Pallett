@@ -1,4 +1,4 @@
 # Pallett.
 Palhetas randomicas.
 
-http://www.rillis.github.io/Pallett
+http://rillis.github.io/Pallett
