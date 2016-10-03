@@ -5,11 +5,12 @@
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
     <script src='resources/scripts.js'></script>
     <script>
-      $(document).keypress(function(e) {
-        if(e.which == 13) {
-          addOne();
+      $(document).keydown( function(event) {
+        if (event.which === 13) {
+          alert('a');
         }
-      });
+        alert('b');
+      }); 
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
   </head>
