@@ -33,8 +33,3 @@ aleat = Math.random() * numPossibilidades
 aleat = Math.floor(aleat)
 return parseInt(inferior) + aleat
 }
-$(document).keypress(function(e) {
-  if(e.which == 13) {
-    addOne();
-  }
-});
