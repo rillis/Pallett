@@ -4,6 +4,13 @@
     <title>Rillis | Pallett</title>
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
     <script src='resources/scripts.js'></script>
+    <script>
+      $(document).keypress(function(e) {
+        if(e.which == 13) {
+          addOne();
+        }
+      });
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
   </head>
   <body>
