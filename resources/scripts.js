@@ -9,6 +9,7 @@ divNova.setAttribute("class", "pale");
 divNova.setAttribute("id", str2);
 divNova.setAttribute("style", str);
 divNova.setAttribute("title", pure);
+document.getElementById(str2).style.backgroundColor = pure;
 document.getElementById("palheta").appendChild(divNova);
 for (i = 0; i < n; i++) {
 var lola = i+1;
