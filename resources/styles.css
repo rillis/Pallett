@@ -14,7 +14,9 @@ body{
   position: fixed;
   bottom:3%;
   right: 3%;
-  background-color: #5383B0;
+  background-color: #000;
+  color:#fff;
+  border:1px solid #fff;
   font-size: 30px;
   font-weight: bold;
   cursor: pointer;
